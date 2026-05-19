@@ -40,6 +40,7 @@ You can run NGIAB locally through DataStreamCLI. We will subset the hydrofabric 
 uvx --from ngiab-prep cli -i gage-02342500 -s
 cd /path/to/datastreamcli
 cp ~/ngiab_preprocess_output/gage-02342500/config/gage-02342500_subset.gpkg .
+chmod +x ./scripts/datastream
 ./scripts/datastream -s 202006200100 \
                     -e 202006210000 \
                     -C NWM_RETRO_V3 \
